@@ -1,0 +1,335 @@
+
+body{
+    font-family: sans-serif;
+}
+*{
+    margin: 0px;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: fixed;
+    margin: 0px;
+    height: 100px;
+    width: 100vw;
+}
+
+select{
+    margin-left: 40px;
+    padding: 0px 10px ;
+    /* height: 60px; */
+    /* margin-top: 40px; */
+    border: none;
+    margin: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    transition:  0.3s;
+    cursor: pointer;
+    outline: none;
+    /* border-radius: 10px; */
+}
+
+select:hover{
+    background-color: rgba(18, 167, 80, 0.863);
+    color: white;
+    /* border-radius: 10px; */
+
+}
+
+option{
+    background-color: rgba(2, 2, 22, 0.856);
+    font-weight: bolder;
+    font-size: 14px;
+
+}
+
+
+
+input{
+    margin-left: 70px;
+    height: 40px;
+    margin-top: 26px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    outline: none;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    background-image: url(magnifying-glass.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+
+
+.buttons{
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: rgba(18, 167, 80, 0.863);
+    margin-top: 27px;
+    margin-left: 170px;
+}
+
+.Login{
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+    background-color: rgba(2, 2, 22, 0.911);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    color: white; 
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+
+.navications{
+    background-color: rgba(2, 2, 22, 0.911) ;
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.navications > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    /* vertical-align: top; */
+    /* margin-top: 20px; */
+    color: white;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.navications > a:hover{
+    background-color: black;
+}
+
+.list{
+    
+    width: 20%;
+    margin-top: 160px;
+    background-color: rgb(224, 224, 224);
+    float: left;
+    position: fixed;
+    overflow-y:hidden;
+}
+
+.list h2{
+    margin-top: 20px;
+    padding-left: 20px;
+
+    
+}
+
+
+li{
+    color: black;
+    margin-top: 5px;
+    width: 130%;
+    height: 20px;
+    padding: 2px;
+    padding-top: 5px;
+    text-align: start;
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+li:hover{
+    background-color: gray;
+}
+
+ul > a{
+    text-decoration: none;
+}
+
+.right{
+    width: 60%;
+    float: right;
+    margin-right: 15%;
+    margin-top: 250px;
+    height: 250vh;
+    border-right: 1px solid rgba(219, 217, 217, 0.932);
+}
+
+.right > #button{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(18, 167, 80, 0.863);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 17px;
+    margin-left: -20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text{
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    background-color: rgba(171, 224, 217, 0.5);
+    padding-left: 30px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.text-button{
+    height: 50px;
+    /* width: 100px; */
+    background-color: rgba(18, 167, 80, 0.863);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.text p{
+
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+
+hr{
+    margin-top: 20px;
+    width: 90%;
+}
+
+.text-1{
+    /* border: 1px solid black; */
+    height: 200px;
+}
+
+.text-1 h1,.para{
+    margin-top: 30px;
+}
+
+.main{
+    height: 440px;
+    background-color:rgba(224, 224, 224);
+    margin-top: 00px;
+    padding-top: 80px;
+}
+
+.text-heading-1{
+    margin-top: -50px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+}
+
+.main > .con{
+    height: 320px;
+    background-color: white;
+    width: 90%;
+    margin-left: 40px;
+    border-left: 4px solid rgba(18, 167, 80, 0.863);
+
+}
+
+.border-1{
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px;
+    /* height: 60px;  */
+}
+
+.button-1{
+    height: 50px;
+    background-color: rgba(18, 167, 80, 0.863);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.text-4{
+    /* border: 1px solid black; */
+    padding: 20px 20px;
+    padding-bottom: 0px;
+}
+
+.heading-4{
+    margin-top: 10px;
+}
+
+.main-1{
+    /* border: 1px solid black; */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.main-1> h1{
+    margin-bottom: 10px;
+}
+
+.button-2{
+    height: 50px;
+    background-color: rgba(18, 167, 80, 0.863);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.main-2{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.main-2> p{
+    margin-bottom: 10px;
+}
+
+.main-2> a{
+    color: black;
+}
+
+.main-2 > a:hover{
+    color: rgba(18, 167, 80, 0.863);
+}
